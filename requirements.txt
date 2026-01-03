@@ -1,0 +1,15 @@
+python-dotenv
+TextLoader
+langchain
+langchain_community
+jupyter
+ipykernel
+langchain-google-genai
+google-genai
+python-dotenv
+google-generativeai
+langchain 
+langchain-google-vertexai 
+chromadb
+pypdf
+openai

@@ -1,0 +1,35 @@
+{
+  "pdf": {
+    "path": "attention.pdf"
+  },
+
+  "text_splitter": {
+    "chunk_size": 1000,
+    "chunk_overlap": 200
+  },
+
+  "embedding": {
+    "model": "gemini-embedding-001",
+    "batch_size": 20,
+    "sleep_seconds": 7
+  },
+
+  "vector_db": {
+    "persist_directory": "./chroma_db",
+    "collection_name": "attention_paper",
+    "top_k": 2
+  },
+
+  "llm": {
+    "model": "gpt-4o-mini",
+    "temperature": 0.2
+  },
+
+  "conversation": {
+    "max_history": 5
+  },
+
+  "logging": {
+    "qa_log_file": "qa_log.txt"
+  }
+}
